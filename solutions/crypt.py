@@ -10,23 +10,16 @@ def decrypt_file(source_filename, destination_filename, fernet: Fernet):
         f.write(decrypted)
 
 
-# opening the key
 def load_fernet_key(key_file_name):
     with open(key_file_name, 'rb') as filekey:
         return Fernet(filekey.read())
 
-# opening the original file to encrypt
-
-
 def encrypt_file(source_filename, destination_filename, fernet):
-    # read file data
     with open(source_filename, 'rb') as f:
         data = f.read()
 
-    # encrypt the file
     encrypted = fernet.encrypt(data)
 
-    # write the encrypted data to a new file
     with open(destination_filename, 'wb') as f:
         f.write(encrypted)
 
