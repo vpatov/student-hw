@@ -56,6 +56,9 @@ Below you'll find a list of questions that we want to answer about the data. The
 13. How many people are the tallest in their friend group?
 14. What is the sum net worth of the people who have more kitty cats than anyone else in their friend group?
 
+## Bonus
+Think of 3 (preferrably difficult) questions about the data, answer them, and assign them to me, and we'll see if I get the same answers!
+
 
 
 
