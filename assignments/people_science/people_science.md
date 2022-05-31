@@ -1,6 +1,6 @@
 # People Science (Who are they really?)
 
-Let's analyze some data, crunch some numbers, and answer some questions about people. You can find a couple of datasets in `assignments/people_science/data`, that vary in size. You can practice with these datasets first (easier to inspect the data manually), but ultimately we want to answer questions about the largest dataset, which is too large to store in git, so you can download it [here](http://vas.nyc/large_data.json).
+Let's analyze some data, crunch some numbers, and answer some questions about people. You can find a couple of datasets in `assignments/people_science`, that vary in size. You can practice with these datasets first (easier to inspect the data manually), but ultimately we want to answer questions about the largest dataset, which is too large to store in git, so you can download it [here](http://vas.nyc/large_data.json).
 
 If the smallest datasets are too big to reason about or inspect when debugging, it could be helpful to work/prototype with your own small subset of the data, and save it in a file for easy use. You are encouraged to save/store any subset or intermediate representation of the data you want, whatever helps you work with it.
 
@@ -55,6 +55,9 @@ Below you'll find a list of questions that we want to answer about the data. The
 12. How many people have the most money in their friend group?
 13. How many people are the tallest in their friend group?
 14. What is the sum net worth of the people who have more kitty cats than anyone else in their friend group?
+
+## Bonus
+Think of 3 (preferrably difficult) questions about the data, answer them, and assign them to me, and we'll see if I get the same answers!
 
 
 
